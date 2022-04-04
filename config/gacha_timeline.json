@@ -1,0 +1,132 @@
+{
+  "fire_attribute_gacha_1": {
+    "start_date": "2022-04-07",
+    "end_date": "2022-04-14"
+  },
+  "dark_attribute_gacha_1": {
+    "start_date": "2022-04-14",
+    "end_date": "2022-04-19"
+  },
+  "half_year_gacha": {
+    "start_date": "2022-04-19",
+    "end_date": "2022-04-28",
+    "seasonal_units": ["礼黑"]
+  },
+  "light_attribute_gacha_1": {
+    "start_date": "2022-04-19",
+    "end_date": "2022-04-28",
+    "seasonal_units": ["礼黑"]
+  },
+  "swimsuit_1_of_4": {
+    "start_date": "2022-04-28",
+    "end_date": "2022-05-06",
+    "seasonal_units": ["泳奇", "泳装水奶", "泳装虎娘", "泳装nesuka"]
+  },
+  "lightning_attribute_gacha_1": {
+    "start_date": "2022-05-06",
+    "end_date": "2022-05-11"
+  },
+  "swimsuit_2_of_4": {
+    "start_date": "2022-05-11",
+    "end_date": "2022-05-19",
+    "seasonal_units": ["雷魔女"]
+  },
+  "wind_attribute_gacha_1": {
+    "start_date": "2022-05-19",
+    "end_date": "2022-05-29"
+  },
+  "swimsuit_3_of_4": {
+    "start_date": "2022-05-29",
+    "end_date": "2022-06-06",
+    "seasonal_units": ["泳装爱丽丝", "泳装marugulitto", "水gay"]
+  },
+  "water_attribute_gacha_1": {
+    "start_date": "2022-06-06",
+    "end_date": "2022-06-12"
+  },
+  "swimsuit_4_of_4": {
+    "start_date": "2022-06-12",
+    "end_date": "2022-06-20",
+    "seasonal_units": ["水王子"]
+  },
+  "lightning_attribute_gacha_2": {
+    "start_date": "2022-06-20",
+    "end_date": "2022-06-30"
+  },
+  "shengnv_and_dengnai_gacha": {
+    "start_date": "2022-06-30",
+    "end_date": "2022-07-10"
+  },
+  "fire_attribute_gacha_2": {
+    "start_date": "2022-07-10",
+    "end_date": "2022-07-15"
+  },
+  "zuohe_gacha_1": {
+    "start_date": "2022-07-15",
+    "end_date": "2022-07-30",
+    "seasonal_units": ["佐贺A", "佐贺B", "佐贺C"]
+  },
+  "zuohe_gacha_2": {
+    "start_date": "2022-07-30",
+    "end_date": "2022-08-14",
+    "seasonal_units": ["佐贺D", "佐贺E", "佐贺F"]
+  },
+  "halloween_gacha_1": {
+    "start_date": "2022-08-14",
+    "end_date": "2022-08-22",
+    "seasonal_units": ["万圣歌姬", "万圣镰刀妹", "万圣化学家", "万圣光奶"]
+  },
+  "huolaoshi_gacha": {
+    "start_date": "2022-08-22",
+    "end_date": "2022-08-30"
+  },
+  "aisitaliruier_gacha": {
+    "start_date": "2022-08-30",
+    "end_date": "2022-09-08"
+  },
+  "light_shoot_pf_gacha_1": {
+    "start_date": "2022-09-08",
+    "end_date": "2022-09-15"
+  },
+  "one_year_pre_gacha": {
+    "start_date": "2022-09-15",
+    "end_date": "2022-09-29",
+    "seasonal_units": ["里脊"]
+  },
+  "one_year_gacha": {
+    "start_date": "2022-09-29",
+    "end_date": "2022-10-08",
+    "seasonal_units": ["星奶", "星七", "星忍"]
+  },
+  "lailusi_gacha": {
+    "start_date": "2022-10-08",
+    "end_date": "2022-10-13"
+  },
+  "christmas_re-release_gacha": {
+    "start_date": "2022-10-13",
+    "end_date": "2022-10-17"
+  },
+  "shenglong_gacha": {
+    "start_date": "2022-10-17",
+    "end_date": "2022-10-24",
+    "seasonal_units": ["圣龙"]
+  },
+  "dark_attribute_gacha_2": {
+    "start_date": "2022-10-24",
+    "end_date": "2022-10-30"
+  },
+  "leiniu_gacha": {
+    "start_date": "2022-10-30",
+    "end_date": "2022-11-07",
+    "seasonal_units": ["雷牛"]
+  },
+  "newyear_re-release_gacha": {
+    "start_date": "2022-11-07",
+    "end_date": "2022-11-15"
+  },
+  "reimu_gacha": {
+    "start_date": "2022-11-15",
+    "end_date": "2022-11-30",
+    "seasonal_units": ["雷姆", "拉姆", "艾米莉亚"]
+  }
+}

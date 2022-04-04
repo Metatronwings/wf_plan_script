@@ -1,0 +1,66 @@
+{
+  "daily_beads_set": {
+    "purchased": true,
+    "price": 50,
+    "free_beads": {
+      "days": 30,
+      "amount": 100
+    },
+    "paid_beads": {
+      "days": 1,
+      "amount": 500
+    },
+    "star_sliver": {
+      "amount": 0
+    }
+  },
+  "500_paid_beads_set": {
+    "purchased": true,
+    "price": 25,
+    "free_beads": {
+      "days": 0,
+      "amount": 0
+    },
+    "paid_beads": {
+      "days": 1,
+      "amount": 500
+    },
+    "star_sliver": {
+      "amount": 0
+    }
+  },
+  "7500_paid_beads_set": {
+    "purchased": false,
+    "price": 518,
+    "free_beads": {
+      "days": 0,
+      "amount": 0
+    },
+    "paid_beads": {
+      "days": 1,
+      "amount": 500
+    },
+    "star_sliver": {
+      "amount": 0
+    }
+  },
+  "10_pull_summoning_ticket_set": {
+    "purchased": false,
+    "price": 98,
+    "free_beads": {
+      "days": 0,
+      "amount": 0
+    },
+    "paid_beads": {
+      "days": 0,
+      "amount": 0
+    },
+    "star_sliver": {
+      "amount": 20
+    },
+    "summoning_tickets": {
+      "10_pull": 1,
+      "1_pull": 0
+    }
+  }
+}

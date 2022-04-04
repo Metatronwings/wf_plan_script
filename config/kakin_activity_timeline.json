@@ -1,0 +1,29 @@
+{
+  "unit_optional_gacha": {
+    "consumption": {
+      "paid_beads": 1500
+    },
+    "reward": {
+      "star_sliver": 0
+    },
+    "date": ["2022-04-19", "2022-08-14", "2022-09-26", "2022-11-15"]
+  },
+  "five_star_gacha": {
+    "consumption": {
+      "paid_beads": 1500
+    },
+    "reward": {
+      "star_sliver": 20
+    },
+    "date": ["2022-05-29", "2022-08-30"]
+  },
+  "equipment_optional_gacha": {
+    "consumption": {
+      "paid_beads": 750
+    },
+    "reward": {
+      "star_sliver": 10
+    },
+    "date": ["2022-07-23"]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "泳奇池": {
+    "description": "泳奇、泳虎，还有两个没啥用的四星。",
+    "start_time": "2022-06-02",
+    "end_time": "2022-06-16",
+    "type": "warning"
+  },
+  "水属性池1": {
+    "description": "不会真有人抽属性池子吧？",
+    "start_time": "2022-06-09",
+    "end_time": "2022-06-16",
+    "type": "info"
+  },
+  "泳爱水gay池": {
+    "description": "水gay，踢罐好手。",
+    "start_time": "2022-06-16",
+    "end_time": "2022-06-30",
+    "type": "success"
+  },
+  "圣女灯奶池": {
+    "description": "太强啦，可惜是两个常驻。不过仍然值得一抽。",
+    "start_time": "2022-06-30",
+    "end_time": "2022-07-14",
+    "type": "warning"
+  },
+  "佐贺一期": {
+    "description": "四星夕雾比较有用，余钻多可以抽一下。",
+    "start_time": "2022-07-21",
+    "end_time": "2022-07-28",
+    "type": "success"
+  },
+  "佐贺二期": {
+    "description": "微氪党可以跳过。",
+    "start_time": "2022-07-28",
+    "end_time": "2022-08-04",
+    "type": "success"
+  },
+  "万圣科学家": {
+    "description": "四星万圣科学家是大奖，值得捞一下。",
+    "start_time": "2022-08-04",
+    "end_time": "2022-08-18",
+    "type": "warning"
+  },
+  "火老师": {
+    "description": "一周年就要到了，微氪不要下池哦。（虽然火老师很强）",
+    "start_time": "2022-08-18",
+    "end_time": "2022-08-25",
+    "type": "success"
+  },
+  "皇女和六个字的风角色": {
+    "description": "一周年就要到了，微氪不要下池哦。",
+    "start_time": "2022-08-25",
+    "end_time": "2022-09-01",
+    "type": "success"
+  },
+  "里脊": {
+    "description": "理论上所有人都要下的池子。",
+    "start_time": "2022-09-25",
+    "end_time": "2022-10-01",
+    "type": "error"
+  },
+  "一周年三杰": {
+    "description": "理论上所有人都要下井的池子。",
+    "start_time": "2022-10-01",
+    "end_time": "2022-10-14",
+    "type": "error"
+  },
+  "圣龙": {
+    "description": "一周年之后的限定连发，其一。",
+    "start_time": "2022-11-01",
+    "end_time": "2022-11-14",
+    "type": "error"
+  },
+  "牛牛": {
+    "description": "一周年之后的限定连发，其二。",
+    "start_time": "2022-11-14",
+    "end_time": "2022-11-28",
+    "type": "error"
+  },
+  "蕾至尊以及EMT_RE0联动": {
+    "description": "一周年之后的限定连发，其三。",
+    "start_time": "2022-12-01",
+    "end_time": "2022-12-14",
+    "type": "error"
+  }
+}

@@ -1,39 +1,8 @@
 {
-  "fire_attribute_gacha_1": {
-    "start_date": "2022-04-07",
-    "end_date": "2022-04-14"
-  },
-  "dark_attribute_gacha_1": {
-    "start_date": "2022-04-14",
-    "end_date": "2022-04-19"
-  },
-  "half_year_gacha": {
-    "start_date": "2022-04-19",
-    "end_date": "2022-04-28",
-    "seasonal_units": ["礼黑"]
-  },
-  "light_attribute_gacha_1": {
-    "start_date": "2022-04-19",
-    "end_date": "2022-04-28",
-    "seasonal_units": ["礼黑"]
-  },
   "swimsuit_1_of_4": {
     "start_date": "2022-04-28",
     "end_date": "2022-05-06",
     "seasonal_units": ["泳奇", "泳装水奶", "泳装虎娘", "泳装nesuka"]
-  },
-  "lightning_attribute_gacha_1": {
-    "start_date": "2022-05-06",
-    "end_date": "2022-05-11"
-  },
-  "swimsuit_2_of_4": {
-    "start_date": "2022-05-11",
-    "end_date": "2022-05-19",
-    "seasonal_units": ["雷魔女"]
-  },
-  "wind_attribute_gacha_1": {
-    "start_date": "2022-05-19",
-    "end_date": "2022-05-29"
   },
   "swimsuit_3_of_4": {
     "start_date": "2022-05-29",
@@ -43,11 +12,6 @@
   "water_attribute_gacha_1": {
     "start_date": "2022-06-06",
     "end_date": "2022-06-12"
-  },
-  "swimsuit_4_of_4": {
-    "start_date": "2022-06-12",
-    "end_date": "2022-06-20",
-    "seasonal_units": ["水王子"]
   },
   "lightning_attribute_gacha_2": {
     "start_date": "2022-06-20",

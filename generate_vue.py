@@ -40,7 +40,7 @@ let extra_paid_diamond = ref()
 let total_free_diamond = ref(0)
 let total_paid_diamond = ref(0)
 
-let timestamp = ref(167241600e4)
+let timestamp = ref(170006400e4)
 
 function computeDiamonds() {
   if (free_diamond.value === undefined) {
@@ -60,7 +60,7 @@ function computeDiamonds() {
   }
   total_free_diamond.value = free_diamond.value
     + 150 * single_pull_ticket.value
-    + 1500 * (ten_pull_ticket.value + ten_pull_ticket_count.value)
+    + 1500 * (ten_pull_ticket.value)
     + computeFreeDiamonds()
     + extra_free_diamond.value
   if (paid_diamond.value === undefined) {
@@ -94,13 +94,17 @@ function computeFreeDiamonds() {
 
   let ret = 0
   if (is_month_card_purchased.value) {
-    ret += 50 * remain_days
+    ret += 100 * remain_days
   }
   // 还有每日任务的钻呢
   ret += 50 * remain_days
+  // 加上测算得来的每日福利钻(暂时记为每日 450 钻)
+  ret += 450 * remain_days
   // 还有工资塔的钻呢
   let remain_months = Math.floor(remain_days / 30)
   ret += 1500 * remain_months
+  // 98 的钻也要算上
+  ret += 1500 * ten_pull_ticket_count.value * remain_months
   return ret
 }
 
@@ -208,6 +212,8 @@ function computePaidDiamonds() {
             <template #prefix>额外付费钻</template>
           </n-input-number>
           <n-divider />
+            每日获取的免费钻计算公式如下: 100(月卡) + 50(每日任务) + 50(幽玄域) + 450(估算每日福利)
+          <n-date-picker v-model:value="timestamp" type="date" />
           <n-button @click="computeDiamonds">
             点击计算
           </n-button>

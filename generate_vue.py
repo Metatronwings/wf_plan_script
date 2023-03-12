@@ -16,40 +16,62 @@ class GenerateVue:
     @staticmethod
     def generate_vue_content() -> List[str]:
         content = ["""<script setup>
-import { NLayout, NLayoutSider, NSpace, NInputNumber, NDivider, NSwitch, NTimeline, NTimelineItem, NButton } from 'naive-ui';
+import { NLayout, NLayoutSider, NSpace, NInputNumber, NDivider, NSwitch, NTimeline, NTimelineItem, NButton, NDatePicker } from 'naive-ui';
 import { ref } from 'vue';
 
-let free_diamond = ref(0)
-let paid_diamond = ref(0)
-let star_piece = ref(0)
-let ten_pull_ticket = ref(0)
-let single_pull_ticket = ref(0)
-let month_card_remain_days = ref(0)
+let free_diamond = ref()
+let paid_diamond = ref()
+let star_piece = ref()
+let ten_pull_ticket = ref()
+let single_pull_ticket = ref()
+let month_card_remain_days = ref()
 
-let small_paid_diamond_set_count = ref(0)
-let ten_pull_ticket_count = ref(0)
-let large_paid_diamond_set_count = ref(0)
+let small_paid_diamond_set_count = ref()
+let ten_pull_ticket_count = ref()
+let large_paid_diamond_set_count = ref()
 
 let is_month_card_purchased = ref(false)
 
 let is_daily_draw_card = ref(false)
 
-let extra_free_diamond = ref(20000)
-let extra_paid_diamond = ref(0)
-
+let extra_free_diamond = ref()
+let extra_paid_diamond = ref()
 
 let total_free_diamond = ref(0)
 let total_paid_diamond = ref(0)
 
-function computeDiamonds () {
-  total_free_diamond.value = free_diamond.value 
-                           + 150 * single_pull_ticket.value 
-                           + 1500 * (ten_pull_ticket.value + ten_pull_ticket_count.value)
-                           + computeFreeDiamonds()
-                           + extra_free_diamond.value
+let timestamp = ref(167241600e4)
+
+function computeDiamonds() {
+  if (free_diamond.value === undefined) {
+    free_diamond.value = 0
+  }
+  if (single_pull_ticket.value === undefined) {
+    single_pull_ticket.value = 0
+  }
+  if (ten_pull_ticket.value === undefined) {
+    ten_pull_ticket.value = 0
+  }
+  if (ten_pull_ticket_count.value === undefined) {
+    ten_pull_ticket_count.value = 0
+  }
+  if (extra_free_diamond.value === undefined) {
+    extra_free_diamond.value = 0
+  }
+  total_free_diamond.value = free_diamond.value
+    + 150 * single_pull_ticket.value
+    + 1500 * (ten_pull_ticket.value + ten_pull_ticket_count.value)
+    + computeFreeDiamonds()
+    + extra_free_diamond.value
+  if (paid_diamond.value === undefined) {
+    paid_diamond.value = 0
+  }
+  if (extra_paid_diamond.value === undefined) {
+    extra_paid_diamond.value = 0
+  }
   total_paid_diamond.value = paid_diamond.value
-                           + computePaidDiamonds()
-                           + extra_paid_diamond.value
+    + computePaidDiamonds()
+    + extra_paid_diamond.value
   console.log(total_free_diamond.value)
   console.log(total_paid_diamond.value)
 
@@ -63,9 +85,9 @@ function computeDiamonds () {
   }
 }
 
-function computeFreeDiamonds () {
+function computeFreeDiamonds() {
   let today = new Date()
-  let end_day = new Date("2022/12/31")
+  let end_day = new Date(timestamp.value)
   let s1 = today.getTime(), s2 = end_day.getTime()
   let total = (s2 - s1) / 1000
   let remain_days = parseInt(total / (24 * 60 * 60))
@@ -74,12 +96,17 @@ function computeFreeDiamonds () {
   if (is_month_card_purchased.value) {
     ret += 50 * remain_days
   }
+  // 还有每日任务的钻呢
+  ret += 50 * remain_days
+  // 还有工资塔的钻呢
+  let remain_months = Math.floor(remain_days / 30)
+  ret += 1500 * remain_months
   return ret
 }
 
 function computePaidDiamonds() {
   let today = new Date()
-  let end_day = new Date("2022/12/31")
+  let end_day = new Date(timestamp.value)
   let s1 = today.getTime(), s2 = end_day.getTime()
   let total = (s2 - s1) / 1000
   let remain_days = parseInt(total / (24 * 60 * 60))
@@ -89,8 +116,12 @@ function computePaidDiamonds() {
   if (is_month_card_purchased.value) {
     ret += 500 * remain_months
   }
-  ret += 500 * small_paid_diamond_set_count.value * remain_months
-  ret += 7500 * large_paid_diamond_set_count.value * remain_months
+  if (small_paid_diamond_set_count.value !== undefined) {
+    ret += 500 * small_paid_diamond_set_count.value * remain_months
+  }
+  if (large_paid_diamond_set_count.value !== undefined) {
+    ret += 7500 * large_paid_diamond_set_count.value * remain_months
+  }
   if (is_daily_draw_card.value) {
     ret -= 75 * remain_days
   }

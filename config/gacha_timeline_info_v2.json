@@ -1,8 +1,8 @@
 {
   "三杰池礼鱼礼铳礼仓唯": {
     "description": "1.5周年三杰",
-    "start_time": "2023-03-20",
-    "end_time": "2023-03-23",
+    "start_time": "2023-03-09",
+    "end_time": "2023-03-24",
     "type": "error"
   },
   "四杰池礼机礼鱼礼铳礼仓唯": {
@@ -46,5 +46,149 @@
     "start_time": "2023-04-27",
     "end_time": "2023-05-04",
     "type": "info"
+  },
+  "脏辫亚里亚": {
+    "description": "还算OK的一个池子",
+    "start_time": "2023-04-27",
+    "end_time": "2023-05-04",
+    "type": "success"
+  },
+  "泳皇女泳警察泳龙骑加水大奶": {
+    "description": "很大(泳龙骑值得一捞)",
+    "start_time": "2023-05-04",
+    "end_time": "2023-05-17",
+    "type": "warning"
+  },
+  "龙拳水碳斩铁骗氪池": {
+    "description": "都是重量级但是不想抽",
+    "start_time": "2023-05-17",
+    "end_time": "2023-05-24",
+    "type": "info"
+  },
+  "泳02": {
+    "description": "强度换立绘",
+    "start_time": "2023-05-24",
+    "end_time": "2023-06-06",
+    "type": "warning"
+  },
+  "深海奶光王子风奶火狼意义不明池": {
+    "description": "意义不明",
+    "start_time": "2023-06-06",
+    "end_time": "2023-06-13",
+    "type": "info"
+  },
+  "泳蛾泳狐": {
+    "description": "纯色风PF光PF",
+    "start_time": "2023-06-13",
+    "end_time": "2023-06-26",
+    "type": "warning"
+  },
+  "凉宫春日卡池": {
+    "description": "联动限定，可捞",
+    "start_time": "2023-06-26",
+    "end_time": "2023-07-09",
+    "type": "warning"
+  },
+  "浴风给浴黑": {
+    "description": "一般般",
+    "start_time": "2023-07-09",
+    "end_time": "2023-07-22",
+    "type": "success"
+  },
+  "心角光大叔": {
+    "description": "常驻池，谨慎",
+    "start_time": "2023-07-22",
+    "end_time": "2023-07-29",
+    "type": "success"
+  },
+  "狗拳": {
+    "description": "最推荐付费井拿下的卡池之一",
+    "start_time": "2023-07-29",
+    "end_time": "2023-08-11",
+    "type": "error"
+  },
+  "万圣一期复刻万圣歌姬万化": {
+    "description": "万化她真的很强",
+    "start_time": "2023-08-11",
+    "end_time": "2023-08-18",
+    "type": "success"
+  },
+  "万圣二期万圣奏者万圣太母": {
+    "description": "太母不太行",
+    "start_time": "2023-08-18",
+    "end_time": "2023-08-31",
+    "type": "success"
+  },
+  "yuki雌小鬼": {
+    "description": "JKJKJKJK",
+    "start_time": "2023-08-31",
+    "end_time": "2023-09-07",
+    "type": "success"
+  },
+  "大雷龙常驻": {
+    "description": "大雷龙",
+    "start_time": "2023-09-07",
+    "end_time": "2023-09-13",
+    "type": "info"
+  },
+  "礼铳礼鱼礼仓唯复刻": {
+    "description": "没有的可以捞下",
+    "start_time": "2023-09-13",
+    "end_time": "2023-09-20",
+    "type": "warning"
+  },
+  "二周年白猫星船": {
+    "description": "建议全部拿下",
+    "start_time": "2023-09-20",
+    "end_time": "2023-10-04",
+    "type": "error"
+  },
+  "二周年星白星冰乐": {
+    "description": "还是不错的",
+    "start_time": "2023-10-04",
+    "end_time": "2023-10-11",
+    "type": "warning"
+  },
+  "圣诞兔兔圣诞冰魔眼": {
+    "description": "",
+    "start_time": "2023-10-11",
+    "end_time": "2023-10-18",
+    "type": "success"
+  },
+  "圣龙圣阿复刻": {
+    "description": "",
+    "start_time": "2023-10-18",
+    "end_time": "2023-10-25",
+    "type": "error"
+  },
+  "春魔女虎神将春圣女": {
+    "description": "",
+    "start_time": "2023-10-25",
+    "end_time": "2023-11-02",
+    "type": "warning"
+  },
+  "春牛水弹火鼠春忍一堆新年角色的复刻": {
+    "description": "",
+    "start_time": "2023-11-02",
+    "end_time": "2023-11-09",
+    "type": "success"
+  },
+  "一周年全部角色复刻": {
+    "description": "",
+    "start_time": "2023-11-02",
+    "end_time": "2023-11-09",
+    "type": "warning"
+  },
+  "雷姆复刻": {
+    "description": "",
+    "start_time": "2023-11-09",
+    "end_time": "2023-11-16",
+    "type": "success"
+  },
+  "PCR小小甜心": {
+    "description": "",
+    "start_time": "2023-11-16",
+    "end_time": "2023-11-29",
+    "type": "success"
   }
 }
